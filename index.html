@@ -41,16 +41,21 @@
 
                     <div class="form-group">
                         <label for="nrOfWinners">Number of comments to pick</label>
-                        <input type="number" class="form-control" id="nrOfWinners" name="nrOfWinners" aria-describedby="Number of comments to pick" placeholder="Number of comments to pick" min="1">
+                        <input type="number" class="form-control" id="nrOfWinners" name="nrOfWinners" aria-describedby="Number of comments to pick" placeholder="Number of comments to pick" min="1" value="1">
                     </div><!-- /form-group -->
 
                     <button type="submit" class="btn btn-primary" id="pickwinners">Pick comments</button>
                 </form>
 
                 <div id="result">
+                    <p>Picked comments: </p>
+                    <ol id="winnerlist">
+
+                    </ol>
                 </div><!-- /result -->
 
             </main>
+
         </div><!-- /container -->
 
          <!--JS -->
