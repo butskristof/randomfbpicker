@@ -30,18 +30,18 @@
                 <form onsubmit="picker(); return false;" id="inputform">
                     <div class="form-group">
                         <label for="accessToken">Facebook access token</label>
-                        <input type="text" class="form-control" id="accessToken" aria-describedby="Facebook access token" placeholder="Facebook access token">
+                        <input type="text" class="form-control" id="accessToken" name="accessToken" aria-describedby="Facebook access token" placeholder="Facebook access token">
                         <small class="form-text text-muted">Get one here</small>
                     </div><!-- /form-group -->
 
                     <div class="form-group">
                         <label for="objectid">Facebook object ID</label>
-                        <input type="text" class="form-control" id="objectid" aria-describedby="Facebook object ID" placeholder="Facebook object ID">
+                        <input type="text" class="form-control" id="objectid" name="objectid" aria-describedby="Facebook object ID" placeholder="Facebook object ID">
                     </div><!-- /form-group -->
 
                     <div class="form-group">
                         <label for="nrOfWinners">Number of comments to pick</label>
-                        <input type="text" class="form-control" id="nrOfWinners" aria-describedby="Number of comments to pick" placeholder="Number of comments to pick">
+                        <input type="number" class="form-control" id="nrOfWinners" name="nrOfWinners" aria-describedby="Number of comments to pick" placeholder="Number of comments to pick" min="1">
                     </div><!-- /form-group -->
 
                     <button type="submit" class="btn btn-primary" id="pickwinners">Pick comments</button>

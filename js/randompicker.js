@@ -1,5 +1,9 @@
 function picker() {
-    console.log("Hello there");
+    // get form data
+    let formdata = $("#inputform").serializeArray(); // use jQuery to assemble key-value pairs
 
-    // let formdata = $('inputform').serializeArray();
+    console.log(formdata);
+
+
 }
+
